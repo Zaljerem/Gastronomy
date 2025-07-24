@@ -18,10 +18,11 @@ namespace Gastronomy.Waiting
 
         public override bool ShouldSkip(Pawn pawn, bool forced = false)
         {
-            return false;
+            return false; //testing
+            //possible the below is non-functional
             var restaurants = pawn.GetAllRestaurantsEmployed();
 
-            if (!InteractionUtility.CanInitiateInteraction(pawn)) return true;
+            if (!SocialInteractionUtility.CanInitiateInteraction(pawn)) return true;
 
             var list = restaurants.SelectMany(r=>r.SpawnedDiningPawns);
 

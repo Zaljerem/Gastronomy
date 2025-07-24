@@ -1,15 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Gastronomy</name>
-	<author>Orion</author>
+	<name>Gastronomy (Continued)</name>
+	<author>Zaljerem</author>
 	<packageId>Orion.Gastronomy</packageId>
-	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2279786905</url>
-	<supportedVersions>
-		<li>1.2</li>
-		<li>1.3</li>
-		<li>1.4</li>
-		<li>1.5</li>
+	<supportedVersions>		
+		<li>1.6</li>
 	</supportedVersions>
+<modVersion IgnoreIfNoMatchingField="True">1.0.1</modVersion>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -19,8 +16,8 @@
 		</li>
 		<li>
 			<packageId>Orion.CashRegister</packageId>
-			<displayName>Cash Register</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2506046833</steamWorkshopUrl>
+			<displayName>Cash Register (Continued)</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/xxxxxxxxxx</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -28,9 +25,21 @@
 	</loadAfter>
     <incompatibleWith>
     </incompatibleWith>
-	<description>Gastronomy allows guests and (optionally) colonists to sit down and order their meals from a waiter.
+	<description>
+Original mod by Orion
+https://steamcommunity.com/sharedfiles/filedetails/?id=2279786905
+GNU General Public License
+All the same, if the original author requests it, I will remove this update.
+
+packageID of Orion.Gastronomy has been retained for compatibility purposes. Please unsub from the original for 1.6
+
+--
+
+Original mod notes (1.5):
+
+Gastronomy allows guests and (optionally) colonists to sit down and order their meals from a waiter.
 	
 Build a cash register to control opening times and what's on the menu.
 	
-It is recommended to have at least one colonist on forced work at every opened hour, to avoid patrons to go hungry.</description>
+It is recommended to have at least one colonist on forced work at every opened hour, to avoid patrons going hungry.</description>
 </ModMetaData>

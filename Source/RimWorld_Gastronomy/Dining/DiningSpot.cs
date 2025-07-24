@@ -24,7 +24,9 @@ public class DiningSpot : Building_NutrientPasteDispenser
 
     private List<SpotState> spotStates = Enumerable.Repeat(SpotState.Clear, 4).ToList();
 
-    public override ThingDef DispensableDef => throw new NotImplementedException();
+    //public override ThingDef DispensableDef => throw new NotImplementedException();
+
+    public override ThingDef DispensableDef => ThingDefOf.MealSimple;
     public bool MayDineStanding { get; } = false;
 
     public int DecoVariation

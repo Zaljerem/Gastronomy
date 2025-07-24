@@ -131,7 +131,7 @@ namespace Gastronomy.Waiting
                     return;
                 }
 
-                toil.actor.GainComfortFromCellIfPossible();
+                toil.actor.GainComfortFromCellIfPossible(1); //added 1 for delta
 
                 if (toil.actor.IsHashIntervalTick(35))
                 {
