@@ -1,5 +1,4 @@
-# Gastronomy
-Orion's RimWorld mod "Gastronomy".
+Gastronomy (Continued)
 
 All code and artwork included is Copyright © 2020 Orion, and distributed under the Creative Commons License Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
 
